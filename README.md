@@ -16,10 +16,11 @@ The two essential questions asked by PH are as follows:
 
 1. **How many roles will need to be filled?** This question is answered with the "Retiring_titles" data table which breaks down the retirements by role. In total, the number of roles to be filled is 90,398. Additional queries can be run for retirements by departments to narrow the roles and range for which management will need to fill positions. 
 
-![alt text](
+![alt text](https://raw.githubusercontent.com/lgonzales1/Pewlett-Hackard-Analysis/main/Data/retirees_by_department.png)
 
 3. **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of PH employees?** 
 
-![alt text](
+![alt text](https://raw.githubusercontent.com/lgonzales1/Pewlett-Hackard-Analysis/main/Data/retiree_count_by_title.png)
+![alt text](https://raw.githubusercontent.com/lgonzales1/Pewlett-Hackard-Analysis/main/Data/current_employees_by_title_final.png)
 
 Throughout this analysis, we can see there is a large discrepancy between the number of total current employees and eligible mentors. Likely, because PH did not perform this analysis sooner, there will not be enough qualified, retirement-ready employees (especially in the larger departments) to mentor the next generation of employees. Executive staff may want to look into trainings and externshhips as a means for creating mentorship relationships for employees at PH. 
