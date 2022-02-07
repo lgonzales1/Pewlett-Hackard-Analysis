@@ -1,4 +1,4 @@
----------------- CHALLENGE: Deliverable 1 ----------------------
+-- CHALLENGE: Deliverable 1
 SELECT e.emp_no, e.first_name, e.last_name, ti.title, ti.from_date, ti.to_date
 INTO retirement_titles
 FROM employees AS e
@@ -45,7 +45,7 @@ FROM dept_manager AS dm
         ON (dm.emp_no = ce.emp_no);
 
 -- Retrieve the number of employees who are about to retire by title.
-SELECT COUNT(title),
+SELECT COUNT(title)
 INTO retiring_titles
 FROM retiree_titles
 GROUP BY title
@@ -62,7 +62,7 @@ WHERE (to_date = '9999-01-01')
 GROUP BY title
 ORDER BY COUNT DESC;
 
----------------- CHALLENGE: Deliverable 2 ----------------------
+-- CHALLENGE: Deliverable 2
 SELECT DISTINCT ON (e.emp_no) e.emp_no, 
 	e.first_name, 
 	e.last_name, 
